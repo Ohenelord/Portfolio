@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lord Ohene Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Asiedu-Odei Lord Ohene</h1>
+      <p>Crafting Seamless User Experiences</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate UI/UX designer with a strong background in crafting user-centered digital solutions. I specialize in creating intuitive interfaces and seamless user experiences using tools like Figma and Illustrator.
+    </p>
+    <p>
+      My notable projects include <strong>AutCare App</strong>, a learning platform for children with autism, and <strong>UG NightCare</strong>, an online pharmacy app.
+    </p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="images/autcare.png" alt="AutCare App">
+        <h3>AutCare App</h3>
+        <p>A learning platform designed for children with autism.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/nightcare.png" alt="UG NightCare App">
+        <h3>UG NightCare</h3>
+        <p>An online pharmacy app for University of Ghana students.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>UI/UX Design</li>
+      <li>Prototyping & Wireframing</li>
+      <li>User Research</li>
+      <li>Mobile and Web App Design</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Asiedu-Odei Lord Ohene. All rights reserved.</p>
+  </footer>
+</body>
+</html>
